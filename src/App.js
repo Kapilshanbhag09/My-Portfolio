@@ -130,14 +130,112 @@ function App() {
 
         </div>
       </div>
+      {/*Skills Section */}
       <div className="middlebar_4">
         <div className="middlebar_2_1">
-          <p className={"middlebar_2_1_t1"}>SKILLS</p>
+          <p className="middlebar_2_1_t1">SKILLS</p>
         </div>
-        <div>
-          <h2>Hello</h2>
+        <div className="middlebar_4_2">
+         <p className="middlebar_4_2_title">Programing Languages</p>
+         <div className="middlebar_4_2_1">
+          <p  className="middlebar_4_2_1_pname">C/C++</p>
+          <div className="middlebar_4_2_1_status">
+            <div style={{backgroundColor:"#eb4c4c",width:'75%',height:'100%'}}>
+              
+            </div>
+          </div>
+         </div>
+         <div className="middlebar_4_2_1">
+          <p className="middlebar_4_2_1_pname">Python</p>
+          <div className="middlebar_4_2_1_status">
+            <div style={{backgroundColor:"#eb4c4c",width:'50%',height:'100%'}}>
+              
+            </div>
+          </div>
+         </div>
+         <div className="middlebar_4_2_1">
+          <p className="middlebar_4_2_1_pname">Java</p>
+          <div className="middlebar_4_2_1_status">
+            <div style={{backgroundColor:"#eb4c4c",width:'25%',height:'100%'}}>
+              
+            </div>
+          </div>
+         </div>
+         <div className="middlebar_4_2_1">
+          <p className="middlebar_4_2_1_pname">JavaScript</p>
+          <div className="middlebar_4_2_1_status">
+            <div style={{backgroundColor:"#eb4c4c",width:'60%',height:'100%'}}>
+              
+            </div>
+          </div>
+         </div>
+        </div>
+        <div className="middlebar_4_3">
+         <p className="middlebar_4_2_title">Technical</p>
+        <div className="middlebar_4_3_1">
+          <div className="middlebar_4_3_1_1">
+          <div className="middlebar_4_3_1_box">
+            <p className="middlebar_4_3_1_box_title">Web Frameworks</p>
+            <li className="middlebar_4_3_1_box_list">React</li>
+            <li className="middlebar_4_3_1_box_list">Flask</li>
+            <li className="middlebar_4_3_1_box_list">NodeJs/Express</li>
+            <li className="middlebar_4_3_1_box_list">Django</li>
+          </div>
+          <div className="middlebar_4_3_1_box">
+          <p className="middlebar_4_3_1_box_title">Mobile Frameworks</p>
+          <li className="middlebar_4_3_1_box_list">React Native</li>
+          <li className="middlebar_4_3_1_box_list">Flutter</li>
+          </div>  
+          </div>
+          
+          <div className="middlebar_4_3_1_1">
+          <div className="middlebar_4_3_1_box">
+          <p className="middlebar_4_3_1_box_title">Database</p>
+          <li className="middlebar_4_3_1_box_list">My Sql</li>
+            <li className="middlebar_4_3_1_box_list">Mongo DB</li>
+            <li className="middlebar_4_3_1_box_list">Firestore</li>
+          </div>
+          <div className="middlebar_4_3_1_box">
+          <p className="middlebar_4_3_1_box_title">Devops</p>
+          <li className="middlebar_4_3_1_box_list">Firebase</li>
+          <li className="middlebar_4_3_1_box_list">Heroku</li>
+          <li className="middlebar_4_3_1_box_list">GitHub</li>
+          </div>
+        </div>
+        </div>
+
+
+
+
+        </div>
+        <div className="middlebar_4_4">
+         <p className="middlebar_4_2_title">Languages</p>
+         <div className="middlebar_4_4_1">
+          <div className="middlebar_4_4_1_1">
+          <div className="middlebar_4_4_1_box">
+            <p  className="middlebar_4_4_1_box_title">A</p>
+            <p className="middlebar_4_4_1_box_language">English</p>
+          </div>
+          <div className="middlebar_4_4_1_box">
+            <p  className="middlebar_4_4_1_box_title">अ</p>
+            <p className="middlebar_4_4_1_box_language">Hindi</p>
+          </div>  
+          </div>
+          
+          <div className="middlebar_4_4_1_1">
+          <div className="middlebar_4_4_1_box">
+          <p className="middlebar_4_4_1_box_title">ಅ</p>
+          <p className="middlebar_4_4_1_box_language">Kannada</p>
+          </div>
+          <div className="middlebar_4_4_1_box">
+          <p className="middlebar_4_4_1_box_title">अ/ಅ</p>
+          <p className="middlebar_4_4_1_box_language">Konkani(M.T)</p>
+          </div>
+        </div>
+        </div>
         </div>
       </div>
+      {/*About Me Section */}
       <div className="middlebar_5">
         <div className="middlebar_2_1">
           <p className={"middlebar_2_1_t1"}>ABOUT ME</p>
