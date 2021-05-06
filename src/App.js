@@ -71,8 +71,21 @@ function App() {
         <div className="middlebar_2_1">
           <p className={"middlebar_2_1_t1"}>EDUCATION</p>
         </div>
-        <div>
-          <h2>Hello</h2>
+        <div className="middlebar_2_2">
+          <div className="middlebar_2_2_1">
+            <p className="middlebar_2_2_name">KLS Gogte Institute of Technolgy</p>
+            <p className="middlebar_2_2_place">Belagavi</p>
+            <p className="middlebar_2_2_degree">Bachelor of Engineering</p>
+            <p className="middlebar_2_2_date">2018-2022</p>
+            <p className="middlebar_2_2_marks">CGPA:8.98</p>
+          </div>
+          <div className="middlebar_2_2_2">
+            <p className="middlebar_2_2_name">Sharadha PU College</p>
+            <p className="middlebar_2_2_place">Manglore</p>
+            <p className="middlebar_2_2_degree">PCMB</p>
+            <p className="middlebar_2_2_date">2016-2018</p>
+            <p className="middlebar_2_2_marks">Perc:92.5%</p>
+          </div>
         </div>
       </div>
       <div className="middlebar_3">
