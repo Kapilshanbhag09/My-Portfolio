@@ -6,6 +6,8 @@ import Github_Logo from './assets/githublogo.png'
 import Twitter_Logo from './assets/twitterlogo.png'
 import Instagram_Logo from './assets/instagramlogo.png'
 import Linkedin_Logo from './assets/linkedinlogo.png'
+import Project_1 from './assets/P11.png'
+import Github_Red_Logo from './assets/githubred.png'
 function App() {
   return (
     <div className="App">
@@ -88,12 +90,44 @@ function App() {
           </div>
         </div>
       </div>
+      {/*Projects Section */}
       <div className="middlebar_3">
         <div className="middlebar_2_1">
-          <p className={"middlebar_2_1_t1"}>PROJECTS</p>
+          <p className="middlebar_3_1_t1">PROJECTS</p>
         </div>
-        <div>
-          <h2>Hello</h2>
+        <div className="middlebar_3_2">
+            <div className="middlebar_3_2_p">
+              <p className="middlebar_3_2_p_title">Dictionary</p>
+              <p className="middlebar_3_2_p_description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+              <div style={{display:'flex',flexDirection:'column',alignItems:'center',marginBottom:'10px',marginTop:'10px'}}>
+              <img src={Github_Red_Logo} className="middlebar_3_2_p_logo" onClick={()=>window.open("https://github.com/Kapilshanbhag09/React_Dictionary")}/>
+              </div>
+            </div>
+            <div className="middlebar_3_2_p">
+            <p className="middlebar_3_2_p_title">Calendar</p>
+              <p className="middlebar_3_2_p_description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+              <div style={{display:'flex',flexDirection:'column',alignItems:'center',marginBottom:'10px',marginTop:'10px'}}>
+              <img src={Github_Red_Logo} className="middlebar_3_2_p_logo" onClick={()=>window.open("https://github.com/Kapilshanbhag09/2021_Calender_flutter")} />
+              </div>
+            </div>
+
+        </div>
+        <div className="middlebar_3_3">
+            <div className="middlebar_3_2_p">
+            <p className="middlebar_3_2_p_title">Billing Application</p>
+              <p className="middlebar_3_2_p_description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+              <div style={{display:'flex',flexDirection:'column',alignItems:'center',marginBottom:'10px',marginTop:'10px'}}>
+              <img src={Github_Red_Logo} className="middlebar_3_2_p_logo"/>
+              </div>
+            </div>
+            <div className="middlebar_3_2_p">
+            <p className="middlebar_3_2_p_title">Hotel Website</p>
+              <p className="middlebar_3_2_p_description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+              <div style={{display:'flex',flexDirection:'column',alignItems:'center',marginBottom:'10px',marginTop:'10px'}}>
+              <img src={Github_Red_Logo} className="middlebar_3_2_p_logo" onClick={()=>window.open("https://github.com/Kapilshanbhag09/Suruchi")}/>
+              </div>
+            </div>
+
         </div>
       </div>
       <div className="middlebar_4">
