@@ -248,8 +248,49 @@ function App() {
         <div className="middlebar_2_1">
           <p className={"middlebar_2_1_t1"}>CONTACT</p>
         </div>
-        <div>
-          <h2>Hello</h2>
+        <div className="middlebar_6_1">
+        <div style={{display:'flex',flexDirection:'column',alignItems:'center',marginTop:'10px'}}>
+        <img src={Phone_Logo} width="50px" />
+        </div>
+        <p style={{fontSize:'5vw',color:'white',textAlign:'center'}}>91-9986248988</p>
+        </div>
+        <div className="middlebar_6_1">
+        <div style={{display:'flex',flexDirection:'column',alignItems:'center',marginTop:'10px'}}>
+        <img src={Github_Logo} width="50px" />
+        </div>
+        <p style={{fontSize:'5vw',color:'white',textAlign:'center'}}>Kapilshanbhag09</p>
+              
+
+        </div>
+        <div className="middlebar_6_1">
+          <div style={{display:'flex',flexDirection:'column',alignItems:'center',marginTop:'10px'}}>
+          <img src={Linkedin_Logo} width="50px"/>
+          </div>
+        <p style={{fontSize:'5vw',color:'white',textAlign:'center'}}>kapil-shanbhag</p>
+        </div>
+        <div className="middlebar_6_1">
+        <div style={{display:'flex',flexDirection:'column',alignItems:'center',marginTop:'10px'}}>
+        <img src={Twitter_Logo} width="50px" />
+        </div>
+              <p style={{fontSize:'5vw',color:'white',textAlign:'center'}}>ShanbhagKapil</p>
+              
+
+        </div>
+        <div className="middlebar_6_1">
+        <div style={{display:'flex',flexDirection:'column',alignItems:'center',marginTop:'10px'}}>
+        <img src={Instagram_Logo} width="50px" />
+        </div>
+              <p style={{fontSize:'5vw',color:'white',textAlign:'center'}}>shanbhagkapil</p>
+              
+
+        </div>
+        <div className="middlebar_6_1">
+        <div style={{display:'flex',flexDirection:'column',alignItems:'center',marginTop:'10px'}}>
+        <img src={Email_Logo} width="50px" />
+        </div>
+        <p style={{fontSize:'5vw',color:'white',textAlign:'center',paddingBottom:'50px'}}>shanbhag.kapil09@gmail.com</p>
+              
+
         </div>
       </div>
       </div>
