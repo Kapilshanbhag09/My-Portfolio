@@ -1,3 +1,6 @@
+.blogs{
+    margin: 0px;
+}
 .header{
     background-color: #eb4c4c;
     width: 100%;
@@ -26,6 +29,28 @@
     margin-left: 6px;
 
 }
+.blog_box{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+}
+.blog_title{
+    margin-left: 10px;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+.blog_date{
+    margin-left: 10px;
+    font-size: 20px;
+    color: black;
+    
+}
+
 @media only screen and (max-width: 900px) {
     .header_1{
         font-size: 6vw;

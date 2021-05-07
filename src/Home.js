@@ -8,7 +8,6 @@ import Github_Logo from './assets/githublogo.png'
 import Twitter_Logo from './assets/twitterlogo.png'
 import Instagram_Logo from './assets/instagramlogo.png'
 import Linkedin_Logo from './assets/linkedinlogo.png'
-import Project_1 from './assets/P11.png'
 import Github_Red_Logo from './assets/githubred.png'
 function Home() {
     return (
