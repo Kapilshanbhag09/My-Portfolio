@@ -227,22 +227,18 @@ function Home() {
          <div className="middlebar_4_4_1">
           <div className="middlebar_4_4_1_1">
           <div className="middlebar_4_4_1_box">
-            <p  className="middlebar_4_4_1_box_title">A</p>
             <p className="middlebar_4_4_1_box_language">English</p>
           </div>
           <div className="middlebar_4_4_1_box">
-            <p  className="middlebar_4_4_1_box_title">अ</p>
             <p className="middlebar_4_4_1_box_language">Hindi</p>
           </div>  
           </div>
           
           <div className="middlebar_4_4_1_1">
           <div className="middlebar_4_4_1_box">
-          <p className="middlebar_4_4_1_box_title">ಅ</p>
           <p className="middlebar_4_4_1_box_language">Kannada</p>
           </div>
           <div className="middlebar_4_4_1_box">
-          <p className="middlebar_4_4_1_box_title">अ/ಅ</p>
           <p className="middlebar_4_4_1_box_language">Konkani(M.T)</p>
           </div>
         </div>

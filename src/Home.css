@@ -250,18 +250,12 @@
     margin-bottom: 10px;
     padding-bottom: 5px;
   }
-  .middlebar_4_4_1_box_title{
-    font-size: 5vw;
-    text-align: center;
-    background-color: #eb4c4c;
-    color:white;
-    border-radius: 5px 5px 0px 0px;
-  }
   .middlebar_4_4_1_box_language{
     padding-left: 10px;
     font-size: 20px;
     text-align: center;
     padding-top: 5px;
+    font-weight: bold;
   }
   .middlebar_5_1{
     margin: 10px 10px 10px 10px;
